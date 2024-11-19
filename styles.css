@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #0F141E;
+  background: #F1F1F1 ;
+}
+
+.info-text p {
+  font-size: 14px;
+  font-style: italic;
+  color: #86898f;
+  margin: 10px 0;
+}
+
+.info-text h2 {
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 30px;
+}
+
+.bg-pink {
+  background: #FFF0F5;
+}
+
+.bg-purple {
+  background: #E6E6FA;
+}
+
+.bg-blue {
+  background: #E0FFFF;
+}
+
+.info {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+
+  }
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+}
+
+a {
+  color: #0F141E;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+.btn {
+  background: rgb(218, 213, 213);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hobbies {
+  padding: 0 20px;
+}
+
+.hobbies li {
+  margin-bottom: 10px;
+  color: darkgrey;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+  color: #767778;
+}
+
+.form h4 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color:#86898f;
+  font-family: inherit;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  /* background: transparent; */
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 10px 0;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  /* width: calc(50%-20px) */
+  width: 50%;
+  
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+    
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.info-text {
+  margin-left: 30px;
+}
+
+.h4 {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  padding-left: 20px;
+}
+
+
+

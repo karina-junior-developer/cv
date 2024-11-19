@@ -5,89 +5,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name ="keywords" content="CV, job, education, skills">
   <meta name ="description" content="This is my CV wepbage. Here you can find information about my career.">
+  <link rel="stylesheet" href="styles.css">
   <title>Karina CV</title>
 </head>
 <body>
-  <img src="imgs/img.png" alt="Profile picture" width="200">
-  <h2>K.K. CV</h2>
+  <div class="container">
 
-  <p>At the moment I am working as an <em>accountant</em> in Yolo Group, but my <strong>aim</strong> is to become a <strong>frontend developer</strong>.</p>
+    <div class="info">
+      <img src="imgs/img.png" alt="Profile picture" class="avatar">
+  
+      <div class="info-text">
+        <h2>K.K.</h2>
+        <p>At the moment I am working as an <em>accountant</em> in FG Group, but my <strong>aim</strong> is to become a <strong>frontend developer</strong>.</p>
+  
+        <p>I am eager to learn new skills and evolve. My dream is to start working as a frontend developer in <strong>October 2025</strong>.</p>
+      </div>
+  
+    </div>
 
-  <p>I am eager to learn new skills and evolve. My dream is to start working as a frontend developer in <strong>October 2025</strong>.</p>
-  <br>
+    <div class="social-media">
+      <h4 class="h4">Social media list</h4>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    |
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    </div>
 
-  <h4>Social media list</h4>
-  <a href="https://www.instagram.com" target="_blank">Instagram</a>
-  |
-  <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    <br><br>
+  
+    <div class="card bg-pink">
+      <h4>My hobbies</h4>
+      <ol class="hobbies">
+        <li>Walking</li>
+        <li>Programming</li>
+        <li>Cooking</li>
+        <li>Healthy eating</li>
+        <li>Sport</li>
+       </ol>
+    </div>
+  
+    <div class="card bg-purple">
+      <h4>Job experience</h4>
+      <table class="table">
+        <!-- <thead>
+          <th>Company name</th>
+          <th>Job title</th>
+          <th>Year</th>
+        </thead> -->
+      
+        <tbody>
+          <tr>
+            <td>AB Bank</td>
+            <td>Intern</td>
+            <td>2017-2018</td>
+          </tr>
+      
+          <tr>
+            <td>BC Bank</td>
+            <td>Relationship Manager</td>
+            <td>2018-2022</td>
+          </tr>
+      
+          <tr>
+            <td>DE Home</td>
+            <td>Finance specialist</td>
+            <td>2023-2024</td>
+          </tr>
+      
+          <tr>
+            <td>FG Group</td>
+            <td>Accountant</td>
+            <td>2024-...</td>
+          </tr>
+      
+        </tbody>
+       </table>
+    </div>
+   
+  <div class="card bg-blue">
+    <h4>Courses</h4>
+    <ul class="list">
+      <li>HTML & CSS</li>
+      <li>Javascript</li>
+      <li>Frontend developer</li>
+     </ul>
+  </div>
+   
+  
+   
+  
+   <form class="form">
+    <h4>Contact me</h4>
 
-  <br><br>
+    <div class="form-row">
 
-  <h4>My hobbies</h4>
- <ol>
-  <li>Walking</li>
-  <li>Programming</li>
-  <li>Cooking</li>
-  <li>Healthy eating</li>
-  <li>Sport</li>
- </ol>
- <h4>Job experience</h4>
 
- <table>
-  <thead>
-    <th>Company name</th>
-    <th>Job title</th>
-    <th>Year</th>
-  </thead>
+    <div class="form-group">
+      <label for="text_name">Your name:</label>
+      <input type="text" id="text_name" placeholder="Insert name">
+     </div>
+  
+     <div class="form-group">
+      <label for="email">Your email:</label>
+      <input type="email" id="email" placeholder="Insert email">
+     </div>
 
-  <tbody>
-    <tr>
-      <td>Luminor Bank</td>
-      <td>Intern</td>
-      <td>2017-2018</td>
-    </tr>
 
-    <tr>
-      <td>LHV Bank</td>
-      <td>Relationship Manager</td>
-      <td>2018-2022</td>
-    </tr>
+    </div>
+  
+     <div class="form-group">
+      <label for="message">Your message:</label>
+      <textarea id="message" cols="25" rows="5" placeholder="Insert message..."></textarea>
+     </div>
+    </form>
+   
+   <button type="submit" class="btn">Send</button>
 
-    <tr>
-      <td>Klar Home</td>
-      <td>Finance specialist</td>
-      <td>2023-2024</td>
-    </tr>
-
-    <tr>
-      <td>Yolo Group</td>
-      <td>Accountant</td>
-      <td>2024-...</td>
-    </tr>
-
-  </tbody>
- </table>
-
- <h4>Contact me</h4>
-
- <form>
-  <div>
-    <label for="text_name">Your name:</label>
-    <input type="text" id="text_name" placeholder="Insert name">
-   </div>
-
-   <div>
-    <label for="email">Your email:</label>
-    <input type="email" id="email" placeholder="Insert email">
-   </div>
-
-   <div>
-    <label for="message">Your message:</label>
-    <br>
-    <textarea id="message" cols="25" rows="5" placeholder="Insert message..."></textarea>
-   </div>
-  </form>
- 
- <button type="submit">Send</button>
+  </div>
+  
 </body>
 </html>
